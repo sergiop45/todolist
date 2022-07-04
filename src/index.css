@@ -5,6 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: radial-gradient(circle at 50% -20.71%, #ffff99 0, #ffff7d 16.67%, #ffff5f 33.33%, 
+  #f2f23c 50%, #cfe503 66.67%, 
+  #abd800 83.33%, #85cd00 100%);
+  background-repeat: repeat-x;
+  
+  height: 100%;
+  
 }
 
 code {

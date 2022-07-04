@@ -1,0 +1,36 @@
+.todolist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid #000;
+    margin-top: 100px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 400px;
+}
+form input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    padding: 5px;
+}
+form button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #000;
+    color: #ddd;
+}
